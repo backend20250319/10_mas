@@ -26,4 +26,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 jwt:
+  # 토큰을 발급 받기 위한 비밀키
   secret: LH9QZL8upsPBfuDY+Dkb1kT9DZIIUSuA2u4O6Lfi3mkEfeWtETpVTcR/8SMZdJWn/xNTuCQBE6rBvDXgnVmscQ==

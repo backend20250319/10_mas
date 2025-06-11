@@ -6,9 +6,9 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-// 1. Gateway 를 호출하는 상황
+// 1. Gateway 를 호출하는 상황 (order -> gateway -> user)
 // @FeignClient(name = "user-service", url = "http://localhost:8000", configuration = FeignClientConfig.class)
-// 2. 내부에서 user-service를 호출하는 상황
+// 2. 내부에서 user-service를 호출하는 상황 (order -> user)
 @FeignClient(name = "swcamp-user-service", configuration = FeignClientConfig.class)
 public interface UserClient {
 

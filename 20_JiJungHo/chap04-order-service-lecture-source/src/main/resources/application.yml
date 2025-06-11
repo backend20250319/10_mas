@@ -15,7 +15,7 @@ spring:
     name: swcamp-order-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cqrs
+    url: jdbc:mysql://localhost:3307/cqrs
     username: swcamp
     password: swcamp
   jpa:
