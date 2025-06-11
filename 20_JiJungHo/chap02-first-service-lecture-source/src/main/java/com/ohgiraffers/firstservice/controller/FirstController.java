@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/first-service")
+//@RequestMapping("/first-service")
 public class FirstController {
     private Environment environment;
 
